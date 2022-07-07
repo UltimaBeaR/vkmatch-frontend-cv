@@ -1,0 +1,14 @@
+{
+    "short_name": "Vk match",
+    "name": "Vk match - сервис для поиска людей в vk",
+    "icons": [
+        {
+            "src": "icon512.png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff"
+}

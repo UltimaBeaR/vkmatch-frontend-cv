@@ -1,0 +1,30 @@
+.online-circle {
+    background: rgb(75, 179, 75);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.seen-recently-circle {
+    background: orange;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.grayscale {
+    img {
+        transition: all 1s;
+        -webkit-filter: grayscale(100%) blur(2px);
+        filter: grayscale(70%) blur(2px) opacity(35%);
+    }
+
+    * {
+        transition: all 1s;
+        color: darken(#edeef0, 30%);
+    }
+
+    .online-circle, .seen-recently-circle {
+        background: darken(#edeef0, 30%);
+    }
+}

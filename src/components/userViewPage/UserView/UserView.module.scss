@@ -1,0 +1,13 @@
+.root {
+    display: flex;
+}
+
+.left {
+    margin-right: 10px;
+
+    flex-shrink: 0;
+}
+
+.right {
+    flex-grow: 1;
+}

@@ -1,0 +1,19 @@
+.disable-interaction {
+    pointer-events: none;
+    user-select: none;
+
+    &:focus {
+        outline: 0;
+    }
+
+    *:focus {
+        outline: 0;
+    }
+}
+
+.center-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;        /* for single line flex container */
+    align-content: center;      /* for multi-line flex container */
+}

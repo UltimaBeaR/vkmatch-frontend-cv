@@ -1,0 +1,15 @@
+.list-outer {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.list-inner {
+    position: relative;
+}
+
+.row {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
